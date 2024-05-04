@@ -15,6 +15,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
   <!--SEPARATED STYLES-->
   <link rel="stylesheet" href="./styles/style.css">
+  <style>
+    /* Custom CSS for mobile responsiveness */
+    @media (max-width: 576px) {
+      /* Adjust the position of news cards */
+      .news-card {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      /* Ensure text visibility in carousel */
+      .carousel-caption {
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      }
+      /* Center align the news tab in navbar on mobile */
+      .navbar-nav {
+        width: 100%;
+        justify-content: center;
+      }
+      .navbar-nav .nav-item {
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -24,7 +46,7 @@
     <nav class="position-sticky sticky-top top-0 zindex-sticky">
       <nav class="navbar navbar-expand-lg navbar-dark bg-krnmain">
         <div class="container-fluid">
-            <!-- Add other social icons similarly -->
+          <!-- Add other social icons similarly -->
           </ul>
           <!-- Logo and toggle button -->
           <a class="navbar-brand" href="#"><img id="logo" src="./images/logo.jpg" alt="logo"></a>
@@ -102,76 +124,79 @@
       </button>
     </div>
 
-<!-- NEWS SECTION -->
-<div class="card bg-krn2 rounded-0" id="newsinfo"> <!-- Add rounded-0 class -->
-  <h5 class="card-header fs-1 text-center bg-krnmain text-white">NEWS</h5>
-  <div class="card-body d-flex justify-content-between">
-    <!-- First News Card -->
-    <div class="news-card" style="width: 22%;">
-      <img src="first_news_image.jpg" class="card-img-top" alt="First News Image">
-      <div class="card-body">
-        <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
-        <p class="card-text fs-5 px-4">hes so the man.</p>
+    <!-- NEWS SECTION -->
+    <div class="card bg-krn2 rounded-0" id="newsinfo"> <!-- Add rounded-0 class -->
+      <h5 class="card-header fs-1 text-center bg-krnmain text-white">NEWS</h5>
+      <div class="card-body d-flex justify-content-between">
+        <!-- First News Card -->
+        <div class="news-card" style="width: 22%;">
+          <img src="first_news_image.jpg" class="card-img-top" alt="First News Image">
+          <div class="card-body">
+            <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
+            <p class="card-text fs-5 px-4">hes so the man.</p>
+          </div>
+        </div>
+        <!-- Second News Card -->
+        <div class="news-card" style="width: 22%;">
+          <img src="second_news_image.jpg" class="card-img-top" alt="Second News Image">
+          <div class="card-body">
+            <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
+            <p class="card-text fs-5 px-4">hes so the man.</p>
+          </div>
+        </div>
+        <!-- Third News Card -->
+        <div class="news-card" style="width: 22%;">
+          <img src="third_news_image.jpg" class="card-img-top" alt="Third News Image">
+          <div class="card-body">
+            <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
+            <p class="card-text fs-5 px-4">hes so the man.</p>
+          </div>
+        </div>
+        <!-- Fourth News Card -->
+        <div class="news-card" style="width: 22%;">
+          <img src="fourth_news_image.jpg" class="card-img-top" alt="Fourth News Image">
+          <div class="card-body">
+            <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
+            <p class="card-text fs-5 px-4">hes so the man.</p>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- Second News Card -->
-    <div class="news-card" style="width: 22%;">
-      <img src="second_news_image.jpg" class="card-img-top" alt="Second News Image">
-      <div class="card-body">
-        <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
-        <p class="card-text fs-5 px-4">hes so the man.</p>
-      </div>
-    </div>
-    <!-- Third News Card -->
-    <div class="news-card" style="width: 22%;">
-      <img src="third_news_image.jpg" class="card-img-top" alt="Third News Image">
-      <div class="card-body">
-        <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
-        <p class="card-text fs-5 px-4">hes so the man.</p>
-      </div>
-    </div>
-    <!-- Fourth News Card -->
-    <div class="news-card" style="width: 22%;">
-      <img src="fourth_news_image.jpg" class="card-img-top" alt="Fourth News Image">
-      <div class="card-body">
-        <h5 class="card-title fs-4 c-krn2 px-3"><i class="bi bi-dot"></i> bozoteko is so the man</h5>
-        <p class="card-text fs-5 px-4">hes so the man.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- View All Button -->
-<div class="text-center mt-3 custom-bg-color">
-  <a href="news" class="btn btn-primary">View All</a>
-</div>
+    <!-- View All Button -->
+    <div class="text-center mt-3 custom-bg-color">
+      <a href="news" class="btn btn-primary">View All</a>
+    </div>
 
 
-<!-- FOOTER SECTION -->
-<footer id="contact" style="background-color: #0a0a0a; color: #ffffff; padding: 20px 0; margin: 0; border: none;">
-  <div class="col-md-12 d-flex justify-content-between align-items-center">
-    <!-- Your footer content here -->
-    <span class="text-muted">© 2030 bozoteko</span>
+    <!-- FOOTER SECTION -->
+    <footer id="contact" style="background-color: #0a0a0a; color: #ffffff; padding: 20px 0; margin: 0; border: none;">
+      <div class="col-md-12 d-flex justify-content-between align-items-center">
+        <!-- Your footer content here -->
+        <span class="text-muted">© 2030 bozoteko</span>
         <!-- SOcial Icons -->
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-4">
           <li class="ms-3"><a class="text-muted" href="https://twitter.com/bozoteko"><i
-            class="bi bi-twitter fs-5"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/bozotekooo/"><i
-            class="bi bi-instagram fs-5"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://www.tiktok.com/@bozoteko"><i
-            class="bi bi-tiktok fs-5"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://discord.com/users/978886625562095617"><i
-            class="bi bi-discord fs-5"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="https://twitch.com/bozoteko"><i
-            class="bi bi-twitch fs-5"></i></a></li>
-    </ul>
-</footer>
-<!--BS5 JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"></script>
-<!-- CUSTOM JS -->
-<script src="./javascripts/script.js"></script>
+                class="bi bi-twitter fs-5"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/bozotekooo/"><i
+                class="bi bi-instagram fs-5"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.tiktok.com/@bozoteko"><i
+                class="bi bi-tiktok fs-5"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://discord.com/users/978886625562095617"><i
+                class="bi bi-discord fs-5"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://twitch.com/bozoteko"><i
+                class="bi bi-twitch fs-5"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!--BS5 JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- CUSTOM JS -->
+  <script src="./javascripts/script.js"></script>
 </body>
 
 </html>
