@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+.logo img {
+    height: 50px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Add transition for opacity */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+}
+
+/* Smooth fade in for dropdown content */
+.dropdown-content.fade-in {
+    display: block;
+    opacity: 1;
+}
+
+/* Smooth fade out for dropdown content */
+.dropdown-content.fade-out {
+    opacity: 0;
+    pointer-events: none; /* Disable pointer events during fade-out */
+}
+
+/* Add this CSS to your stylesheet */
+.arrow {
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+.dropdown:hover .arrow {
+    transform: rotate(180deg) translateY(-50%);
+    font-size: 0.8em; /* Keep font size the same when hovered */
+}
+
+nav ul li a[href="                .html"] {
+    padding-left: 380px; /* Adjust padding as needed */
+}
+

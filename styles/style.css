@@ -1,0 +1,196 @@
+/*FONTS*/
+@font-face {
+  font-family: valorant;
+  src: url(../fonts/valorant.ttf);
+}
+@font-face {
+  font-family: leagueoflegends;
+  src: url(../fonts/lol.otf);
+}
+@font-face {
+  font-family: rocketleague;
+  src: url(../fonts/rl.otf);
+}
+.f-vlr{font-family: valorant;}
+.f-lol{font-family: leagueoflegends;}
+.f-rl{font-family: rocketleague;}
+/*BACKGROUNDS*/
+.bg-krnmain {
+  background-color: #0a0a0a;
+}
+.bg-krn2 {
+  background-color: #0a0a0a;
+}
+.bg-krn3 {
+  background-color: #0a0a0a;
+}
+.bg-krn4 {
+  background-color: #0a0a0a;
+}
+.bg-krn5 {
+  background-color: #0a0a0a;
+}
+.bg-dark {
+  border: #0a0a0a;
+}
+.c-krnmain {
+  color: #0a0a0a;
+}
+.c-krn2 {
+  color: #472682;
+}
+.c-krn3 {
+  color: #0a0a0a;
+}
+.c-krn4 {
+  color: #0a0a0a;
+}
+.c-krn5 {
+  color: #0a0a0a;
+}
+b {
+  color: #0a0a0a;
+}
+a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+a:hover {
+  color: #0a0a0a;
+}
+b > a:hover {
+  color: #0a0a0a;
+}
+::selection {
+  color: #0a0a0a;
+  background-color: #694499;
+}
+#logo {
+  width: 43px;
+}
+#whistle{
+  width:20px;
+  margin:2.3px;
+}
+.kirinfilter {
+  filter: invert(33%) sepia(12%) saturate(3284%) hue-rotate(226deg)
+    brightness(87%) contrast(87%);
+}
+
+.news-card {
+  background-color: #0a0a0a; /* Set background color to black */
+  border: 1px solid #ffffff; /* Add border with Kirin Gaming color */
+  border-radius: 8px; /* Add border radius */
+}
+
+.news-card .card-body,
+.news-card .card-title,
+.news-card .card-text {
+  color: #ffffff; /* Set text color to white */
+}
+
+/* "How" Section */
+#how-section {
+  background-color: #0a0a0a; /* Set background color */
+  color: #ffffff; /* Set text color */
+  padding: 40px 20px; /* Add padding */
+  border-radius: 8px; /* Add border radius */
+  margin-top: 20px; /* Add margin top */
+  border: 1px solid #ffffff; /* Add border */
+}
+
+/* Footer style */
+footer {
+  background-color: #0a0a0a; /* Set background color */
+  color: #ffffff; /* Set text color */
+  padding: 20px 0; /* Add padding to the footer */
+  margin: 0; /* Remove margin */
+  border: none; /* Remove border */
+}
+
+.card.bg-krn2.rounded-0 {
+  border-radius: 0;
+}
+
+.social-link {
+  color: #6c757d; /* Set default color */
+}
+
+.social-link:hover {
+  color: #000000; /* Set color on hover */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.nav-item:nth-child(4) { /* Target the fourth nav-item (NEWS link) */
+  align-self: flex-start; /* Align to the top */
+}
+
+/* Text Color */
+.custom-bg {
+  background-color: #0a0a0a;
+  color: white; /* Set text color to white */
+}
+
+.display-1 {
+  font-size: 3.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.card-body.text-center {
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #333; /* Adjust the color as needed */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.social-icons a:hover {
+  color: #fff; /* Change color to white on hover */
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+.partner-logos img {
+  width: 250px; /* Adjust the width to make the logos bigger */
+}
+
+.invisible-text {
+  visibility: hidden;
+}
+
+.custom-bg-color {
+  background-color: #0a0a0a;
+  padding: 10px; /* Optional: Adjust padding to fit the button */
+  margin: 0; /* Remove margin */
+} 
+
+.btn-primary {
+  background-color: #0a0a0a;
+  border-color: #2c2c2c; /* Optional: Adjust border color if needed */
+  margin: 0; /* Remove margin */
+}
+
+.btn-primary:hover {
+  background-color: #444444;
+  border-color: #444444;
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background: #0a0a0a;
+  background-attachment: Fixed;
+  color: #0a0a0a;
+
+}

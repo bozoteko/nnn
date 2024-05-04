@@ -1,0 +1,2 @@
+Default Carasoul Size - 3840x2160
+Extended - 1920x800
