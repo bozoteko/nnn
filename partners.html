@@ -20,7 +20,26 @@
   <style>
     .partner-logos img {
       width: 200px; /* Adjust the width to make the logos bigger */
+      margin: auto; /* Center align the logos */
+      display: block; /* Ensure logos are centered properly */
     }
+
+    /* Custom styles for navbar */
+    @media (max-width: 576px) {
+      /* Center align the navbar items on mobile */
+      .navbar-nav {
+        width: 100%;
+        justify-content: center;
+      }
+      .navbar-nav .nav-item {
+        text-align: center;
+      }
+      /* Center align the "News" button specifically */
+      .navbar-nav .nav-item:nth-child(4) {
+        margin: auto;
+      }
+    }
+
   </style>
 </head>
 
@@ -32,7 +51,6 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-krnmain">
         <div class="container-fluid">
           <!-- Add other social icons similarly -->
-          </ul>
           <!-- Logo and toggle button -->
           <a class="navbar-brand" href="#"><img id="logo" src="./images/logo.jpg" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,7 +60,7 @@
           </button>
           <!-- Navbar links -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="./">HOME</a>
               </li>
@@ -50,7 +68,7 @@
                 <a class="nav-link" href="roster">ROSTER</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" class="nav-link" href="partners">PARTNERS</a>
+                <a class="nav-link active" aria-current="page" href="partners">PARTNERS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="news">NEWS</a>
@@ -66,29 +84,30 @@
     <!-- NAVBAR END -->
     <!-- Text -->
     <section class="text-center py-5 custom-bg">
-        <div class="container">
-          <h1 class="display-1">Partners</h1>
-          <!-- Logos -->
-          <div class="partner-logos mt-5">
-            <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Partner 1 Logo"></a>
-            <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Partner 2 Logo"></a>
-            <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Partner 3 Logo"></a>
-          </div>
-          <h1 class="display-1 mt-5">Brands</h1>
-          <!-- Brands -->
-          <div class="partner-logos mt-5">
-            <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Brand 1 Logo"></a>
-            <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Brand 2 Logo"></a>
-            <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Brand 3 Logo"></a>
-          </div>
-          <p class="invisible-text">This text is invisible.</p>
-          <p class="invisible-text">This text is invisible.</p>
-          <p class="invisible-text">This text is invisible.</p>
-          <p class="invisible-text">This text is invisible.</p>
-          <p class="invisible-text">This text is invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible</p>
-            </div>   
+      <div class="container">
+        <h1 class="display-1">Partners</h1>
+        <!-- Logos -->
+        <div class="partner-logos mt-5">
+          <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Partner 1 Logo"></a>
+          <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Partner 2 Logo"></a>
+          <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Partner 3 Logo"></a>
         </div>
-      </section>
+        <h1 class="display-1 mt-5">Brands</h1>
+        <!-- Brands -->
+        <div class="partner-logos mt-5">
+          <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Brand 1 Logo"></a>
+          <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Brand 2 Logo"></a>
+          <a href="https://fortnite.com"><img src="images/partners/fortnite.png" alt="Brand 3 Logo"></a>
+        </div>
+        <p class="invisible-text">This text is invisible.</p>
+        <p class="invisible-text">This text is invisible.</p>
+        <p class="invisible-text">This text is invisible.</p>
+        <p class="invisible-text">This text is invisible.</p>
+        <p class="invisible-text">This text is invisible.This text is invisible.This text is invisible.This text is
+          invisible.This text is invisible.This text is invisible.This text is invisible.This text is invisible.This
+          text is invisible.This text is invisible</p>
+      </div>
+    </section>
 
     <!-- FOOTER SECTION -->
     <footer id="contact"
